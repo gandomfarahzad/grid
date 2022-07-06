@@ -24,3 +24,9 @@ window.onload = () =>
     targets: ".cursor",
     opacity: 1,
   });
+
+const toggler = document.querySelector(".toggle");
+
+toggler.addEventListener("click", () => {
+  body.classList.toggle("dark");
+});
