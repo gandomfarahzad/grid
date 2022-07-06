@@ -14,9 +14,9 @@ body {
   background: #fff;
 }
 
-body.dark {
-  background-color: #000;
-  color: #fff;
+.dark {
+  background: linear-gradient(35deg, #121314, #111827, #121314);
+  color: #F8FAFC;
 }
 
 .cursor {
