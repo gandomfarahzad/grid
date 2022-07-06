@@ -13,6 +13,11 @@ body {
   background: #fff;
 }
 
+.dark {
+  background: linear-gradient(35deg, #121314, #111827, #121314);
+  color: #F8FAFC;
+}
+
 .cursor {
   position: absolute;
   top: 0;
@@ -45,6 +50,13 @@ p {
   margin: 0 auto;
   max-width: 100%;
   padding: 0 1rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .gallery {
